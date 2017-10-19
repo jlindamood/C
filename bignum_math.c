@@ -2,8 +2,8 @@
 /**************************
  * bignum_math.c -- an outline for CLab1
  *
- * orginially written by Andy Exley-----skeleton and basic helper functions.
- * modified by Emery Mizero ---------/
+ * orginially written by Andy Exley-----add, basic helper functions, and overall skeleton.
+ * modified by Emery Mizero 
  * completed by (including the entirety of subtract, compare methods, and all methods marked by TODO:) by James Lindamood for CSCI2021
  * **************************/
 
