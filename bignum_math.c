@@ -2,9 +2,10 @@
 /**************************
  * bignum_math.c -- an outline for CLab1
  *
- * orginially written by Andy Exley
- * modified by Emery Mizero
- **************************/
+ * orginially written by Andy Exley-----skeleton and basic helper functions.
+ * modified by Emery Mizero ---------/
+ * completed by (including the entirety of subtract, compare methods, and all methods marked by TODO:) by James Lindamood for CSCI2021
+ * **************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -105,10 +106,6 @@ int* string_to_integer_array(char* str) {
 		} else {
 			printf("I don't know how got to this point!\n");
 		}
-	}
-
-	for (k=0; k<bignum_length(result); k++) {
-		printf("%d\n", result[k]);
 	}
 
 	return result;
@@ -526,7 +523,6 @@ int* subtract(int* input1, int* input2, int base) {
 		temp = input1;
 		input1 = input2;
 		input2 = temp;
-		printf("Results switched!\n");
 	}
 
     if(isNegative(input1) && isNegative(input2)) {
